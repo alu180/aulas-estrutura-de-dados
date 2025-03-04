@@ -1,7 +1,16 @@
-int buscaSequencial(int tamanho, int vetor[], int valor) {
-    for (int i = 0; i < tamanho; i++) {
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+
+int buscaSequencial(int vetor[], int tamanho, int valor) {
+    for (int i = 0; i < tamanho / 2; i++) {
         if (vetor[i] == valor) {
             return i;
+        }
+        if (vetor[tamanho - 1 - i] == valor) {
+            return tamanho - 1 - i;
         }
     }
     return -1; // Elemento não encontrado
