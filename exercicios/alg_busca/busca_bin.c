@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 
-   // int rodadas;
+
 
 int buscaBinaria(int vetor[], int tamanho, int valor, int *rodadas ) {
     int inicio = 0, fim = tamanho-1, meio;
