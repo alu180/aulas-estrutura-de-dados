@@ -11,5 +11,6 @@ void liberarFila(Fila *p);
 // a ser implementado pelo aluno
 int desenfileira(Fila *p);
 void enfileira(Fila *p, unsigned int dado);
+void listarfila(Fila *p);
 
 #endif // FILA_H

@@ -28,5 +28,7 @@ void liberarPilha(Pilha *p) {
 
 // a ser implementado pelo aluno
 // int top(Pilha *p);
+
 // int pop(Pilha *p);
+
 // void push(Pilha *p, unsigned int dado);
